@@ -618,6 +618,10 @@ button {
   border: none;
 }
 
+.modal-close-ikon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .modal-title {
   font-weight: 500;
   font-size: 16px;
@@ -629,7 +633,7 @@ button {
 }
 
 .form-field-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .form-field-label {
