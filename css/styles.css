@@ -649,7 +649,12 @@ button {
   position: relative;
 }
 
-.form-field-input-wrapper svg {
+.form-field-input-wrapper {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.class-name-icon {
   position: absolute;
   left: 16px;
   top: 50%;
